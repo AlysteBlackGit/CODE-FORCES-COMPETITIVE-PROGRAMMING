@@ -39,7 +39,7 @@ inline bool compare(ll a, ll b){
 	return a>b;
 }
 const ll m = 1e9 + 7;
-bool cp(pair<ll,ll> a, pair<ll,ll> b){
+inline bool cp(pair<ll,ll> a, pair<ll,ll> b){
 	return a.second<b.second;
 }
 template <class spe, class spe2>
